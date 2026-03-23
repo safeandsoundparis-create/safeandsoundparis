@@ -92,43 +92,49 @@ if (priceEl) {
   counterIO.observe(priceEl);
 }
 
-/* ── Contact form → mailto ── */
+/* ── Contact form → Formspree ── */
 const contactForm = document.getElementById('contactForm');
 if (contactForm) {
-  contactForm.addEventListener('submit', e => {
+  contactForm.addEventListener('submit', async e => {
     e.preventDefault();
+
+    const btn     = document.getElementById('submitBtn');
+    const success = document.getElementById('formSuccess');
 
     const hotel   = contactForm.querySelector('#hotel')?.value   || '';
     const name    = contactForm.querySelector('#fullname')?.value || '';
     const email   = contactForm.querySelector('#email')?.value   || '';
     const phone   = contactForm.querySelector('#phone')?.value   || '';
-    const date    = contactForm.querySelector('#date')?.value    || '';
     const message = contactForm.querySelector('#message')?.value || '';
+    const lang    = localStorage.getItem('sas-lang') || 'fr';
 
-    const lang = localStorage.getItem('sas-lang') || 'fr';
     const subject = lang === 'fr'
       ? `Demande Safe & Sound — ${hotel}`
+      : lang === 'ar'
+      ? `طلب Safe & Sound — ${hotel}`
       : `Safe & Sound enquiry — ${hotel}`;
 
-    const body = lang === 'fr'
-      ? `Hôtel : ${hotel}\nContact : ${name}\nEmail : ${email}\nTéléphone : ${phone}\nDate envisagée : ${date}\n\n${message}`
-      : `Hotel: ${hotel}\nContact: ${name}\nEmail: ${email}\nPhone: ${phone}\nEnvisaged date: ${date}\n\n${message}`;
+    if (btn) { btn.disabled = true; btn.style.opacity = '0.5'; }
 
-    const mailto = `mailto:event@myparisconcierge.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    try {
+      const res = await fetch('https://formspree.io/f/mwvrdjee', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+        body: JSON.stringify({ subject, hotel, name, email, phone, message, lang })
+      });
 
-    // Show success
-    const btn     = document.getElementById('submitBtn');
-    const success = document.getElementById('formSuccess');
-    if (btn)     { btn.disabled = true; btn.style.opacity = '0.5'; }
-    if (success) { success.style.display = 'block'; }
-
-    setTimeout(() => { window.location.href = mailto; }, 400);
-
-    setTimeout(() => {
-      contactForm.reset();
-      if (btn)     { btn.disabled = false; btn.style.opacity = ''; }
-      if (success) { success.style.display = 'none'; }
-    }, 4000);
+      if (res.ok) {
+        if (success) { success.style.display = 'block'; }
+        contactForm.reset();
+        setTimeout(() => { if (success) success.style.display = 'none'; }, 5000);
+      } else {
+        alert(lang === 'fr' ? 'Erreur lors de l\'envoi. Veuillez réessayer.' : 'Error sending. Please try again.');
+      }
+    } catch {
+      alert(lang === 'fr' ? 'Erreur réseau. Veuillez réessayer.' : 'Network error. Please try again.');
+    } finally {
+      if (btn) { btn.disabled = false; btn.style.opacity = ''; }
+    }
   });
 }
 

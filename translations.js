@@ -232,11 +232,10 @@ const TRANSLATIONS = {
   "contact.hero.sub":     { fr: "Disponible pour des partenaires de luxe sélectionnés uniquement", en: "Available for selected luxury partners only", ar: "متاح لشركاء الفخامة المختارين فقط" },
 
   "contact.form.eyebrow":   { fr: "Envoyez-nous un message",  en: "Send us a message",    ar: "أرسل لنا رسالة" },
-  "contact.form.hotel":     { fr: "Nom de l'hôtel *",         en: "Hotel name *",          ar: "اسم الفندق *" },
+  "contact.form.hotel":     { fr: "Nom *",                    en: "Name *",                ar: "الاسم *" },
   "contact.form.name":      { fr: "Votre nom *",              en: "Your name *",           ar: "اسمك *" },
   "contact.form.email":     { fr: "Email *",                  en: "Email *",               ar: "البريد الإلكتروني *" },
   "contact.form.phone":     { fr: "Téléphone",                en: "Phone",                 ar: "الهاتف" },
-  "contact.form.date":      { fr: "Date envisagée",           en: "Envisaged date",        ar: "التاريخ المقترح" },
   "contact.form.message":   { fr: "Votre message *",          en: "Your message *",        ar: "رسالتك *" },
   "contact.form.submit":    { fr: "Envoyer la demande",       en: "Send request",          ar: "إرسال الطلب" },
   "contact.form.success":   { fr: "Message envoyé ✓",         en: "Message sent ✓",        ar: "تم الإرسال ✓" },
