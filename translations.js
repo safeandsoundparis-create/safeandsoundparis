@@ -232,7 +232,7 @@ const TRANSLATIONS = {
   "contact.hero.sub":     { fr: "Disponible pour des partenaires de luxe sélectionnés uniquement", en: "Available for selected luxury partners only", ar: "متاح لشركاء الفخامة المختارين فقط" },
 
   "contact.form.eyebrow":   { fr: "Envoyez-nous un message",  en: "Send us a message",    ar: "أرسل لنا رسالة" },
-  "contact.form.hotel":     { fr: "Nom *",                    en: "Name *",                ar: "الاسم *" },
+  "contact.form.hotel":     { fr: "Votre entreprise *",        en: "Your company *",        ar: "شركتكم *" },
   "contact.form.name":      { fr: "Votre nom *",              en: "Your name *",           ar: "اسمك *" },
   "contact.form.email":     { fr: "Email *",                  en: "Email *",               ar: "البريد الإلكتروني *" },
   "contact.form.phone":     { fr: "Téléphone",                en: "Phone",                 ar: "الهاتف" },
