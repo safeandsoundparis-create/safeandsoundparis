@@ -413,21 +413,15 @@
   transform: translateY(0);
 }
 .talent-panel:not(.active) .talent-panel__content {
-  top: 0;
-  bottom: 0;
-  display: flex;
   align-items: center;
-  justify-content: center;
-  padding: 0;
+  justify-content: flex-end;
+  padding-bottom: 5.5rem;
 }
 .talent-panel:not(.active) .talent-panel__name {
-  writing-mode: vertical-rl;
-  text-orientation: mixed;
-  transform: rotate(180deg);
+  transform: rotate(90deg);
   font-size: 0.9rem;
-  opacity: 0.9;
+  opacity: 0.85;
   white-space: nowrap;
-  text-align: center;
 }
 @media (max-width: 640px) {
   .talent-accordion {
