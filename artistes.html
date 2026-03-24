@@ -293,27 +293,42 @@
       <div class="talent-panel active" data-img="images/dj-palais-vert.jpg">
         <div class="talent-panel__overlay"></div>
         <img class="talent-panel__bg" src="images/dj-palais-vert.jpg" alt="Palais Vert" onerror="this.src='images/affiche5.png'" />
-        <span class="talent-panel__name">Palais Vert</span>
+        <div class="talent-panel__content">
+          <span class="talent-panel__name">Palais Vert</span>
+          <p class="talent-panel__desc">Figure incontournable de la scène électronique parisienne, Palais Vert s'est imposé comme DJ headliner sur les plus grandes scènes de festivals internationaux. Suivez son univers sur Instagram.</p>
+        </div>
       </div>
       <div class="talent-panel" data-img="images/verdy-violon.jpg">
         <div class="talent-panel__overlay"></div>
         <img class="talent-panel__bg" src="images/verdy-violon.jpg" alt="Verdy" onerror="this.src='images/affiche4.png'" />
-        <span class="talent-panel__name">Verdy</span>
+        <div class="talent-panel__content">
+          <span class="talent-panel__name">Verdy</span>
+          <p class="talent-panel__desc"></p>
+        </div>
       </div>
       <div class="talent-panel" data-img="images/sveva-peinture.jpg">
         <div class="talent-panel__overlay"></div>
         <img class="talent-panel__bg" src="images/sveva-peinture.jpg" alt="Sveva Ambrosoli" onerror="this.src='images/affiche6.png'" />
-        <span class="talent-panel__name">Sveva Ambrosoli</span>
+        <div class="talent-panel__content">
+          <span class="talent-panel__name">Sveva Ambrosoli</span>
+          <p class="talent-panel__desc"></p>
+        </div>
       </div>
       <div class="talent-panel" data-img="images/MC.jpg">
         <div class="talent-panel__overlay"></div>
         <img class="talent-panel__bg" src="images/MC.jpg" alt="MC Hosting" onerror="this.src='images/event6.jpg'" />
-        <span class="talent-panel__name">MC & Vocal</span>
+        <div class="talent-panel__content">
+          <span class="talent-panel__name">MC & Vocal</span>
+          <p class="talent-panel__desc"></p>
+        </div>
       </div>
       <div class="talent-panel" data-img="images/mixologue.jpg">
         <div class="talent-panel__overlay"></div>
         <img class="talent-panel__bg" src="images/mixologue.jpg" alt="Mixologiste" onerror="this.src='images/event7.jpg'" />
-        <span class="talent-panel__name">Mixologiste</span>
+        <div class="talent-panel__content">
+          <span class="talent-panel__name">Mixologiste</span>
+          <p class="talent-panel__desc"></p>
+        </div>
       </div>
     </div>
     <p style="text-align:center;color:var(--grey-lt);font-size:0.8rem;margin-top:1.5rem;letter-spacing:0.08em;opacity:0.6;">— Passez votre curseur sur chaque talent —</p>
@@ -357,28 +372,56 @@
   background: linear-gradient(to top, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.15) 55%, transparent 100%);
   z-index: 1;
 }
-.talent-panel__name {
+.talent-panel__content {
   position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
   z-index: 2;
+  padding: 1.5rem 1.6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+.talent-panel__name {
   color: #fff;
   font-family: 'Cormorant Garamond', serif;
-  font-size: 1.15rem;
+  font-size: 1.25rem;
   font-weight: 500;
   letter-spacing: 0.04em;
   white-space: nowrap;
-  bottom: 1.6rem;
-  left: 50%;
-  transform: translateX(-50%) rotate(0deg);
   transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1),
-              bottom 0.5s cubic-bezier(0.4, 0, 0.2, 1),
               opacity 0.3s ease;
+  display: block;
+}
+.talent-panel__desc {
+  color: rgba(255,255,255,0.88);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.78rem;
+  font-weight: 300;
+  line-height: 1.6;
+  letter-spacing: 0.01em;
+  margin: 0;
+  max-width: 340px;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.4s ease 0.25s,
+              transform 0.4s ease 0.25s;
+}
+.talent-panel.active .talent-panel__desc {
   opacity: 1;
+  transform: translateY(0);
+}
+.talent-panel:not(.active) .talent-panel__content {
+  align-items: center;
+  justify-content: flex-end;
+  padding-bottom: 5.5rem;
 }
 .talent-panel:not(.active) .talent-panel__name {
-  transform: translateX(-50%) rotate(90deg);
-  bottom: 5.5rem;
+  transform: rotate(90deg);
   font-size: 0.9rem;
   opacity: 0.85;
+  white-space: nowrap;
 }
 @media (max-width: 640px) {
   .talent-accordion {
