@@ -413,22 +413,22 @@
   transform: translateY(0);
 }
 .talent-panel:not(.active) .talent-panel__content {
-  top: 0;
-  bottom: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  inset: 0;
   padding: 0;
+  display: block;
 }
 .talent-panel:not(.active) .talent-panel__desc {
   display: none;
 }
 .talent-panel:not(.active) .talent-panel__name {
-  writing-mode: vertical-rl;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-90deg);
   font-size: 0.85rem;
   letter-spacing: 0.06em;
-  opacity: 0.9;
   white-space: nowrap;
+  opacity: 0.9;
 }
 @media (max-width: 640px) {
   .talent-accordion {
