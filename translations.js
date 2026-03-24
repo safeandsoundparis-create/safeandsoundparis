@@ -169,19 +169,19 @@ const TRANSLATIONS = {
      PAGE 4 — PARTENAIRES / PARTNERS
      ══════════════════════════════ */
   "partners.hero.eyebrow": { fr: "Partenaires",   en: "Partners",    ar: "الشركاء" },
-  "partners.hero.title":   { fr: "Votre univers,<br><em>notre vision</em>", en: "Your universe,<br><em>our vision</em>", ar: "عالمكم،<br><em>رؤيتنا</em>" },
+  "partners.hero.title":   { fr: "Votre Univers,<br><em>Notre Vision</em>", en: "Your Universe,<br><em>Our Vision</em>", ar: "عالمكم،<br><em>رؤيتنا</em>" },
   "partners.hero.sub":     { fr: "Une alliance exclusive au service de l'excellence", en: "An exclusive alliance in service of excellence", ar: "تحالف حصري في خدمة التميّز" },
 
   "partners.why.eyebrow": { fr: "Pourquoi Nous ?",  en: "Why Us?",      ar: "لماذا نحن؟" },
   "partners.why.title":   { fr: "Concept signature de<br><em style=\"color:var(--yellow);\">My Paris Concierge</em>", en: "Signature concept by<br><em style=\"color:var(--yellow);\">My Paris Concierge</em>", ar: "مفهوم حصري من<br><em style=\"color:var(--yellow);\">ماي باريس كونسيارج</em>" },
-  "partners.why.p1":      { fr: "My Paris Concierge est une agence spécialisée dans la création d'expériences culturelles d'exception pour les hôtels de luxe à Paris. Safe & Sound est notre concept signature — pensé, produit et livré exclusivement par nos soins.", en: "My Paris Concierge is an agency specialising in creating exceptional cultural experiences for luxury hotels in Paris. Safe & Sound is our signature concept — conceived, produced and delivered exclusively by us.", ar: "ماي باريس كونسيارج وكالة متخصصة في إنشاء تجارب ثقافية استثنائية لفنادق الفخامة في باريس. سيف آند ساوند مفهومنا الحصري — تُصوَّر وتُنتَج وتُسلَّم حصرياً من قِبلنا." },
+  "partners.why.p1":      { fr: "My Paris Concierge est un service de conciergerie privée spécialisé dans la création d'expériences culturelles d'exception pour les hôtels de luxe à Paris. Safe & Sound est notre concept signature — pensé, produit et livré exclusivement par nos soins.", en: "My Paris Concierge is a private concierge service specialising in creating exceptional cultural experiences for luxury hotels in Paris. Safe & Sound is our signature concept — conceived, produced and delivered exclusively by us.", ar: "ماي باريس كونسيارج خدمة كونسيارج خاصة متخصصة في إنشاء تجارب ثقافية استثنائية لفنادق الفخامة في باريس. سيف آند ساوند مفهومنا الحصري — تُصوَّر وتُنتَج وتُسلَّم حصرياً من قِبلنا." },
   "partners.why.p2":      { fr: "Chaque détail est orchestré avec soin : la scénographie, la sélection des artistes, la coordination on-site. Votre équipe n'a qu'à accueillir.", en: "Every detail is carefully orchestrated: the scenography, artist selection, on-site coordination. Your team simply needs to welcome.", ar: "كل تفصيل مُنسَّق بعناية: التصميم، اختيار الفنانين، التنسيق في الموقع. فريقكم لا يحتاج إلا إلى الاستقبال." },
 
   "partners.process.eyebrow": { fr: "Le Processus",    en: "The Process",    ar: "العملية" },
   "partners.process.title":   { fr: "Comment<br><em>ça fonctionne</em>", en: "How it<br><em>works</em>", ar: "كيف<br><em>يعمل</em>" },
   "partners.step1.num":  { fr: "01", en: "01", ar: "01" },
   "partners.step1.t":    { fr: "Premier Contact",         en: "First Contact",          ar: "التواصل الأول" },
-  "partners.step1.d":    { fr: "Prise de contact, échange sur votre établissement et vos objectifs. Nous vérifions la disponibilité et la compatibilité de votre espace.", en: "Initial contact, discussion about your property and goals. We verify availability and compatibility of your space.", ar: "تواصل أولي، نقاش حول منشأتكم وأهدافكم. نتحقق من التوفر وملاءمة مساحتكم." },
+  "partners.step1.d":    { fr: "Prise de contact et échange avec vous. Nous vérifions la disponibilité et la compatibilité de votre espace.", en: "Initial contact and discussion with you. We verify availability and compatibility of your space.", ar: "تواصل أولي وتبادل معكم. نتحقق من التوفر وملاءمة مساحتكم." },
   "partners.step2.num":  { fr: "02", en: "02", ar: "02" },
   "partners.step2.t":    { fr: "Proposition Sur Mesure",  en: "Tailored Proposal",      ar: "عرض مخصص" },
   "partners.step2.d":    { fr: "Nous vous soumettons une proposition personnalisée avec date(s), configuration et programme adaptés à votre contexte.", en: "We submit a personalised proposal with date(s), configuration and programme adapted to your context.", ar: "نُقدِّم لكم عرضاً مخصصاً يتضمن التاريخ (التواريخ) والتهيئة والبرنامج المناسبين لسياقكم." },
@@ -194,7 +194,7 @@ const TRANSLATIONS = {
 
   "partners.invest.amount":   { fr: "Sur Devis", en: "Custom Quote", ar: "على الطلب" },
   "partners.invest.eyebrow":  { fr: "Investissement",           en: "Investment",              ar: "الاستثمار" },
-  "partners.invest.title":    { fr: "Une Production Complète.", en: "A Complete Production.", ar: "إنتاج متكامل." },
+  "partners.invest.title":    { fr: "<em>Une Production Complète.</em>", en: "<em>A Complete Production.</em>", ar: "<em>إنتاج متكامل.</em>" },
   "partners.invest.included": { fr: "Production complète, clé en main",  en: "Complete turnkey production",  ar: "إنتاج متكامل جاهز للتسليم" },
   "partners.invest.note":     { fr: "Le tarif est établi sur devis, selon les frais de déplacement et les frais de production. Votre hôtel conserve 100% du chiffre d'affaires food & beverage.", en: "The fee is established on a custom quote basis, based on travel costs and production fees. Your hotel retains 100% of food & beverage revenue.", ar: "يُحدَّد الرسم بناءً على عرض أسعار مخصص يأخذ في الحسبان تكاليف التنقل والإنتاج. يحتفظ فندقكم بـ 100% من إيرادات الطعام والمشروبات." },
   "partners.invest.footer":   { fr: "Disponible pour des partenaires de luxe sélectionnés uniquement.", en: "Available for selected luxury partners only.", ar: "متاح لشركاء الفخامة المختارين فقط." },
