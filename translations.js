@@ -169,11 +169,11 @@ const TRANSLATIONS = {
      PAGE 4 — PARTENAIRES / PARTNERS
      ══════════════════════════════ */
   "partners.hero.eyebrow": { fr: "Partenaires",   en: "Partners",    ar: "الشركاء" },
-  "partners.hero.title":   { fr: "Votre Hôtel,<br><em>Notre Vision</em>", en: "Your Hotel,<br><em>Our Vision</em>", ar: "فندقكم،<br><em>رؤيتنا</em>" },
-  "partners.hero.sub":     { fr: "Un partenariat exclusif, pensé pour l'excellence hôtelière", en: "An exclusive partnership, designed for hospitality excellence", ar: "شراكة حصرية مصممة لتميّز الضيافة" },
+  "partners.hero.title":   { fr: "Votre univers,<br><em>notre vision</em>", en: "Your universe,<br><em>our vision</em>", ar: "عالمكم،<br><em>رؤيتنا</em>" },
+  "partners.hero.sub":     { fr: "Une alliance exclusive au service de l'excellence", en: "An exclusive alliance in service of excellence", ar: "تحالف حصري في خدمة التميّز" },
 
   "partners.why.eyebrow": { fr: "Pourquoi Nous ?",  en: "Why Us?",      ar: "لماذا نحن؟" },
-  "partners.why.title":   { fr: "Conçu par<br><em style=\"color:var(--yellow);\">My Paris Concierge</em>", en: "Conceived by<br><em style=\"color:var(--yellow);\">My Paris Concierge</em>", ar: "من تصميم<br><em style=\"color:var(--yellow);\">ماي باريس كونسيارج</em>" },
+  "partners.why.title":   { fr: "Concept signature de<br><em style=\"color:var(--yellow);\">My Paris Concierge</em>", en: "Signature concept by<br><em style=\"color:var(--yellow);\">My Paris Concierge</em>", ar: "مفهوم حصري من<br><em style=\"color:var(--yellow);\">ماي باريس كونسيارج</em>" },
   "partners.why.p1":      { fr: "My Paris Concierge est une agence spécialisée dans la création d'expériences culturelles d'exception pour les hôtels de luxe à Paris. Safe & Sound est notre concept signature — pensé, produit et livré exclusivement par nos soins.", en: "My Paris Concierge is an agency specialising in creating exceptional cultural experiences for luxury hotels in Paris. Safe & Sound is our signature concept — conceived, produced and delivered exclusively by us.", ar: "ماي باريس كونسيارج وكالة متخصصة في إنشاء تجارب ثقافية استثنائية لفنادق الفخامة في باريس. سيف آند ساوند مفهومنا الحصري — تُصوَّر وتُنتَج وتُسلَّم حصرياً من قِبلنا." },
   "partners.why.p2":      { fr: "Chaque détail est orchestré avec soin : la scénographie, la sélection des artistes, la coordination on-site. Votre équipe n'a qu'à accueillir.", en: "Every detail is carefully orchestrated: the scenography, artist selection, on-site coordination. Your team simply needs to welcome.", ar: "كل تفصيل مُنسَّق بعناية: التصميم، اختيار الفنانين، التنسيق في الموقع. فريقكم لا يحتاج إلا إلى الاستقبال." },
 
@@ -192,6 +192,7 @@ const TRANSLATIONS = {
   "partners.step4.t":    { fr: "Jour J",   en: "Event Day",   ar: "يوم الحدث" },
   "partners.step4.d":    { fr: "Notre équipe prend en charge l'installation, la gestion on-site et le démontage. Vous accueillez, nous gérons.", en: "Our team handles setup, on-site management and breakdown. You welcome, we manage.", ar: "يتولى فريقنا التركيب والإدارة في الموقع والتفكيك. أنتم تستقبلون، نحن ندير." },
 
+  "partners.invest.amount":   { fr: "Sur devis uniquement", en: "Custom quote only", ar: "على الطلب فقط" },
   "partners.invest.eyebrow":  { fr: "Investissement",           en: "Investment",              ar: "الاستثمار" },
   "partners.invest.title":    { fr: "Sur Devis.<br><em>Une Production Complète.</em>", en: "Custom Quote.<br><em>Complete Production.</em>", ar: "على الطلب.<br><em>إنتاج متكامل.</em>" },
   "partners.invest.included": { fr: "Production complète, clé en main",  en: "Complete turnkey production",  ar: "إنتاج متكامل جاهز للتسليم" },
