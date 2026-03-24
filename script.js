@@ -95,8 +95,20 @@ if (priceEl) {
 /* ── Contact form → Formspree ── */
 const contactForm = document.getElementById('contactForm');
 if (contactForm) {
+  let lastSubmitTime = 0;
+  const RATE_LIMIT_MS = 5000;
+
   contactForm.addEventListener('submit', async e => {
     e.preventDefault();
+
+    // Rate limiting
+    const now = Date.now();
+    if (now - lastSubmitTime < RATE_LIMIT_MS) return;
+    lastSubmitTime = now;
+
+    // Honeypot check
+    const honeypot = contactForm.querySelector('[name="_honeypot"]');
+    if (honeypot && honeypot.value) return;
 
     const btn     = document.getElementById('submitBtn');
     const success = document.getElementById('formSuccess');

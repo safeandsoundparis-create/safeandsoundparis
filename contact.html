@@ -157,6 +157,8 @@
         <h2 style="margin-bottom:2rem;" data-i18n="contact.hero.title">Créons Quelque<br><em>Chose d'Exceptionnel</em></h2>
 
         <form class="form" id="contactForm" novalidate>
+          <!-- Honeypot anti-bot (invisible aux humains) -->
+          <input type="text" name="_honeypot" style="display:none;position:absolute;left:-9999px;" tabindex="-1" autocomplete="off" aria-hidden="true">
           <div class="form-row">
             <div class="form-group">
               <input type="text" id="hotel" name="hotel" placeholder="Votre nom" required
