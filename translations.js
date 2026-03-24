@@ -197,7 +197,7 @@ const TRANSLATIONS = {
   "partners.invest.title":    { fr: "<em>Une Production Complète.</em>", en: "<em>A Complete Production.</em>", ar: "<em>إنتاج متكامل.</em>" },
   "partners.invest.included": { fr: "Production complète, clé en main",  en: "Complete turnkey production",  ar: "إنتاج متكامل جاهز للتسليم" },
   "partners.invest.note":     { fr: "Le tarif est établi sur devis, selon les frais de déplacement et les frais de production. Votre hôtel conserve 100% du chiffre d'affaires food & beverage.", en: "The fee is established on a custom quote basis, based on travel costs and production fees. Your hotel retains 100% of food & beverage revenue.", ar: "يُحدَّد الرسم بناءً على عرض أسعار مخصص يأخذ في الحسبان تكاليف التنقل والإنتاج. يحتفظ فندقكم بـ 100% من إيرادات الطعام والمشروبات." },
-  "partners.invest.footer":   { fr: "Disponible pour des partenaires de luxe sélectionnés uniquement.", en: "Available for selected luxury partners only.", ar: "متاح لشركاء الفخامة المختارين فقط." },
+  "partners.invest.footer":   { fr: "Disponible pour des partenaires sélectionnés uniquement.", en: "Available for selected luxury partners only.", ar: "متاح لشركاء الفخامة المختارين فقط." },
   "partners.invest.cta":      { fr: "Demander un devis",   en: "Request a quote",    ar: "طلب عرض أسعار" },
 
   "partners.card1.title": { fr: "Concept Propriétaire", en: "Proprietary Concept", ar: "مفهوم حصري" },
@@ -242,7 +242,7 @@ const TRANSLATIONS = {
      ══════════════════════════════ */
   "contact.hero.eyebrow": { fr: "Contactez-nous",   en: "Contact us",      ar: "اتصل بنا" },
   "contact.hero.title":   { fr: "Créons Quelque<br><em>Chose d'Exceptionnel</em>", en: "Let's Create Something<br><em>Exceptional</em>", ar: "لنخلق شيئاً<br><em>استثنائياً</em>" },
-  "contact.hero.sub":     { fr: "Disponible pour des partenaires de luxe sélectionnés uniquement", en: "Available for selected luxury partners only", ar: "متاح لشركاء الفخامة المختارين فقط" },
+  "contact.hero.sub":     { fr: "Disponible pour des partenaires sélectionnés uniquement", en: "Available for selected luxury partners only", ar: "متاح لشركاء الفخامة المختارين فقط" },
 
   "contact.form.eyebrow":   { fr: "Envoyez-nous un message",  en: "Send us a message",    ar: "أرسل لنا رسالة" },
   "contact.form.hotel":     { fr: "Votre entreprise *",        en: "Your company *",        ar: "شركتكم *" },
