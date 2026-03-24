@@ -66,7 +66,7 @@ const TRANSLATIONS = {
   "event.program.t1":      { fr: "Accueil & Installation",      en: "Welcome & Setup",       ar: "الاستقبال والتجهيز" },
   "event.program.d1":      { fr: "Arrivée des guests, accueil cocktails zero-proof, découverte de l'espace scénographié", en: "Guest arrival, zero-proof cocktail welcome, discovery of the scenography", ar: "وصول الضيوف، استقبال بكوكتيل خالٍ من الكحول، اكتشاف المساحة المصممة" },
   "event.program.t2":      { fr: "Début des Performances",      en: "Performances Begin",    ar: "بدء العروض" },
-  "event.program.d2":      { fr: "Le DJ et les musiciens live prennent place.", en: "The DJ and live musicians take the stage.", ar: "يأخذ الدي جي والموسيقيون الحيون أماكنهم." },
+  "event.program.d2":      { fr: "Le DJ et les musiciens live prennent place et jouent.", en: "The DJ and live musicians take the stage and perform.", ar: "يأخذ الدي جي والموسيقيون الحيون أماكنهم ويعزفون." },
   "event.program.t3":      { fr: "Performance Artistique Live", en: "Live Art Performance",  ar: "عرض فني حي" },
   "event.program.d3":      { fr: "L'artiste sélectionné débute sa peinture live. Les guests assistent à la naissance de l'œuvre en temps réel.", en: "The selected artist begins their live painting. Guests witness the birth of the work in real time.", ar: "يبدأ الفنان المختار رسمه المباشر. يشهد الضيوف ولادة العمل الفني في الوقت الفعلي." },
   "event.program.t4":      { fr: "Apogée Musicale",             en: "Musical Climax",        ar: "الذروة الموسيقية" },
