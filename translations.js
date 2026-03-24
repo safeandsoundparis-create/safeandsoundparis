@@ -29,7 +29,7 @@ const TRANSLATIONS = {
   "home.hero.cta":   { fr: "Découvrir l'expérience", en: "Discover the experience", ar: "اكتشف التجربة" },
 
   "home.intro.eyebrow": { fr: "L'Essence",   en: "The Essence",   ar: "الجوهر" },
-  "home.intro.title":   { fr: "Né à Paris.<br><em>Pensé pour le Luxe.</em>", en: "Born in Paris.<br><em>Built for Luxury.</em>", ar: "وُلد في باريس.<br><em>صُمِّم للفخامة.</em>" },
+  "home.intro.title":   { fr: "Né à Paris,<br><em>Destiné aux scènes du monde.</em>", en: "Born in Paris,<br><em>Built for the World Stage.</em>", ar: "وُلد في باريس،<br><em>ليصل إلى مسارح العالم.</em>" },
   "home.intro.p1":      { fr: "Safe & Sound est une expérience culturelle live ultra-raffinée, sans alcool, conçue pour les établissements de luxe.", en: "Safe & Sound is an ultra-refined, alcohol-free live cultural experience, thoughtfully designed for luxury establishments.", ar: "سيف آند ساوند تجربة ثقافية حية راقية خالية من الكحول، مصممة خصيصاً لمؤسسات الفخامة." },
   "home.intro.p2":      { fr: "Mêlant musique live, art contemporain et mixologie zero-proof, elle se déploie comme un rassemblement d'après-midi soigneusement orchestré, pour une clientèle qui privilégie l'élégance à l'excès.", en: "Blending live music, contemporary art, and zero-proof mixology, it unfolds as a curated afternoon gathering, for a clientele who values elegance over excess.", ar: "تمزج بين الموسيقى الحية والفن المعاصر والمشروبات غير الكحولية، في تجمع بعد ظهر منتقى بعناية، لعملاء يفضّلون الأناقة على الإفراط." },
   "home.intro.cta":     { fr: "En savoir plus", en: "Learn more", ar: "اعرف المزيد" },
@@ -58,7 +58,7 @@ const TRANSLATIONS = {
 
   "event.concept.eyebrow": { fr: "Le Concept",     en: "The Concept",     ar: "المفهوم" },
   "event.concept.title":   { fr: "Un Format Culturel<br><em>Vivant</em>", en: "A Living<br><em>Cultural Format</em>", ar: "صيغة ثقافية<br><em>حية</em>" },
-  "event.concept.p1":      { fr: "Safe & Sound est un événement culturel d'après-midi, pensé comme une alternative raffinée aux formats traditionnels. Pas de spectacle, pas d'excès, une pure expérience sensorielle qui engage, inspire et reste.", en: "Safe & Sound is an afternoon cultural event, conceived as a refined alternative to traditional formats. No spectacle, no excess — a pure sensory experience that engages, inspires and lingers.", ar: "سيف آند ساوند حدث ثقافي بعد الظهر، يُتصوَّر كبديل راقٍ للصيغ التقليدية. لا إفراط ولا ضجيج، تجربة حسية خالصة تُشرك، تُلهم وتبقى في الذاكرة." },
+  "event.concept.p1":      { fr: "Safe & Sound est un événement culturel, pensé comme une alternative raffinée aux formats traditionnels. Un show sans excès une pure expérience sensorielle qui engage, inspire et reste.", en: "Safe & Sound is an afternoon cultural event, conceived as a refined alternative to traditional formats. No spectacle, no excess — a pure sensory experience that engages, inspires and lingers.", ar: "سيف آند ساوند حدث ثقافي بعد الظهر، يُتصوَّر كبديل راقٍ للصيغ التقليدية. لا إفراط ولا ضجيج، تجربة حسية خالصة تُشرك، تُلهم وتبقى في الذاكرة." },
   "event.concept.p2":      { fr: "", en: "", ar: "" },
 
   "event.program.eyebrow": { fr: "Programme",              en: "Programme",              ar: "البرنامج" },
