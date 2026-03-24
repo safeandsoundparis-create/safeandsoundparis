@@ -121,7 +121,9 @@ const TRANSLATIONS = {
      PAGE 3 — ARTISTES / ARTISTS
      ══════════════════════════════ */
   "artists.hero.eyebrow": { fr: "Artistes",    en: "Artists",    ar: "الفنانون" },
-  "artists.hero.title":   { fr: "Les Talents<br><em>de Safe & Sound</em>", en: "The Talents<br><em>of Safe & Sound</em>", ar: "مواهب<br><em>سيف آند ساوند</em>" },
+  "artists.hero.title":   { fr: "La Formation<br><em>Safe & Sound</em>", en: "The Safe & Sound<br><em>Formation</em>", ar: "تشكيلة<br><em>سيف آند ساوند</em>" },
+  "artists.accordion.eyebrow": { fr: "Notre Collectif", en: "Our Collective", ar: "مجموعتنا" },
+  "artists.accordion.title":   { fr: "Les Talents qui ont participé<br><em>à Safe & Sound</em>", en: "The Talents who performed<br><em>at Safe & Sound</em>", ar: "الفنانون الذين شاركوا<br><em>في سيف آند ساوند</em>" },
   "artists.hero.sub":     { fr: "Une communauté curatée de DJs, musiciens, artistes et mixologistes", en: "A curated community of DJs, musicians, artists and mixologists", ar: "مجتمع منتقى من دي جيهات وموسيقيين وفنانين ومتخصصي مشروبات" },
 
   "artists.dj.eyebrow":   { fr: "Musique",         en: "Music",          ar: "الموسيقى" },
