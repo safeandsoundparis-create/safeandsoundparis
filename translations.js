@@ -155,8 +155,8 @@ const TRANSLATIONS = {
   "artists.yellow.btn2":    { fr: "Voir l'investissement", en: "View investment",   ar: "عرض الاستثمار" },
 
   "artists.mc.eyebrow":  { fr: "Hosting",              en: "Hosting",              ar: "الإدارة" },
-  "artists.mc.title":    { fr: "Performance Vocale<br><em>& MC Hosting</em>", en: "Vocal Performance<br><em>& MC Hosting</em>", ar: "عرض غنائي<br><em>وإدارة الحفل</em>" },
-  "artists.mc.body":     { fr: "Un MC / hôte vocal lie l'ensemble des éléments de l'événement — guidant les guests à travers les performances, introduisant les artistes et maintenant une énergie fluide et élégante du début à la fin.", en: "An MC / vocal host ties all elements of the event together — guiding guests through the performances, introducing the artists and maintaining a fluid, elegant energy from start to finish.", ar: "مدير حفل/مضيف يربط جميع عناصر الحدث — يرشد الضيوف خلال العروض، يُقدّم الفنانين ويُبقي على طاقة سلسة وأنيقة من البداية للنهاية." },
+  "artists.mc.title":    { fr: "Performance<br><em>& MC Hosting</em>", en: "Performance<br><em>& MC Hosting</em>", ar: "العرض<br><em>وإدارة الحفل</em>" },
+  "artists.mc.body":     { fr: "Un MC / hôte lie l'ensemble des éléments de l'événement, guidant les guests à travers les performances, introduisant les artistes et maintenant une énergie fluide et élégante du début à la fin.", en: "An MC / host ties all elements of the event together, guiding guests through the performances, introducing the artists and maintaining a fluid, elegant energy from start to finish.", ar: "مدير حفل/مضيف يربط جميع عناصر الحدث، يرشد الضيوف خلال العروض، يُقدّم الفنانين ويُبقي على طاقة سلسة وأنيقة من البداية للنهاية." },
 
   "artists.mixo.eyebrow": { fr: "Mixologie",              en: "Mixology",              ar: "فن المشروبات" },
   "artists.mixo.title":   { fr: "Mixologistes<br><em>Zéro Alcool</em>", en: "Zero-Alcohol<br><em>Mixologists</em>", ar: "متخصصو مشروبات<br><em>بلا كحول</em>" },
