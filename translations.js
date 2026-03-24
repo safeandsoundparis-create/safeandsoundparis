@@ -152,8 +152,8 @@ const TRANSLATIONS = {
   "artists.cta.btn1":      { fr: "Voir les tarifs", en: "View pricing", ar: "عرض الأسعار" },
 
   "artists.yellow.eyebrow": { fr: "Réservations",    en: "Bookings",       ar: "الحجوزات" },
-  "artists.yellow.title":   { fr: "Vivez l'expérience<br><em style=\"font-style:italic;opacity:0.5;\">dans votre hôtel</em>", en: "Experience it<br><em style=\"font-style:italic;opacity:0.5;\">in your hotel</em>", ar: "عيشوا التجربة<br><em style=\"font-style:italic;opacity:0.5;\">في فندقكم</em>" },
-  "artists.yellow.body":    { fr: "Vous souhaitez accueillir Safe & Sound dans votre établissement ? Contactez-nous pour connaître les disponibilités.", en: "Would you like to host Safe & Sound at your property? Contact us to check availability.", ar: "هل تودّون استضافة سيف آند ساوند في منشأتكم؟ تواصلوا معنا للاستفسار عن التوفر." },
+  "artists.yellow.title":   { fr: "Vivez l'expérience<br><em style=\"font-style:italic;opacity:0.5;\">Safe &amp; Sound</em>", en: "Live the<br><em style=\"font-style:italic;opacity:0.5;\">Safe &amp; Sound experience</em>", ar: "عيشوا تجربة<br><em style=\"font-style:italic;opacity:0.5;\">سيف آند ساوند</em>" },
+  "artists.yellow.body":    { fr: "Vous souhaitez vivre l'univers Safe &amp; Sound ? Contactez-nous pour connaître les disponibilités.", en: "Would you like to experience the Safe &amp; Sound universe? Contact us to check availability.", ar: "هل تودّون عيش عالم سيف آند ساوند؟ تواصلوا معنا للاستفسار عن التوفر." },
   "artists.yellow.btn1":    { fr: "Nous contacter",        en: "Contact us",        ar: "اتصل بنا" },
   "artists.yellow.btn2":    { fr: "Voir l'investissement", en: "View investment",   ar: "عرض الاستثمار" },
 
