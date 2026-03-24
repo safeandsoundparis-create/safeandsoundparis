@@ -192,9 +192,9 @@ const TRANSLATIONS = {
   "partners.step4.t":    { fr: "Jour J",   en: "Event Day",   ar: "يوم الحدث" },
   "partners.step4.d":    { fr: "Notre équipe prend en charge l'installation, la gestion on-site et le démontage. Vous accueillez, nous gérons.", en: "Our team handles setup, on-site management and breakdown. You welcome, we manage.", ar: "يتولى فريقنا التركيب والإدارة في الموقع والتفكيك. أنتم تستقبلون، نحن ندير." },
 
-  "partners.invest.amount":   { fr: "Sur devis uniquement", en: "Custom quote only", ar: "على الطلب فقط" },
+  "partners.invest.amount":   { fr: "Sur Devis", en: "Custom Quote", ar: "على الطلب" },
   "partners.invest.eyebrow":  { fr: "Investissement",           en: "Investment",              ar: "الاستثمار" },
-  "partners.invest.title":    { fr: "Sur Devis.<br><em>Une Production Complète.</em>", en: "Custom Quote.<br><em>Complete Production.</em>", ar: "على الطلب.<br><em>إنتاج متكامل.</em>" },
+  "partners.invest.title":    { fr: "Une Production Complète.", en: "A Complete Production.", ar: "إنتاج متكامل." },
   "partners.invest.included": { fr: "Production complète, clé en main",  en: "Complete turnkey production",  ar: "إنتاج متكامل جاهز للتسليم" },
   "partners.invest.note":     { fr: "Le tarif est établi sur devis, selon les frais de déplacement et les frais de production. Votre hôtel conserve 100% du chiffre d'affaires food & beverage.", en: "The fee is established on a custom quote basis, based on travel costs and production fees. Your hotel retains 100% of food & beverage revenue.", ar: "يُحدَّد الرسم بناءً على عرض أسعار مخصص يأخذ في الحسبان تكاليف التنقل والإنتاج. يحتفظ فندقكم بـ 100% من إيرادات الطعام والمشروبات." },
   "partners.invest.footer":   { fr: "Disponible pour des partenaires de luxe sélectionnés uniquement.", en: "Available for selected luxury partners only.", ar: "متاح لشركاء الفخامة المختارين فقط." },
