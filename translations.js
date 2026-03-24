@@ -272,11 +272,11 @@ const TRANSLATIONS = {
   "contact.faq1.q": { fr: "Combien de temps dure l'événement ?",   en: "How long does the event last?",          ar: "كم مدة الحدث؟" },
   "contact.faq1.a": { fr: "Typiquement entre 3h et 4h30, selon la configuration choisie avec votre établissement.", en: "Typically between 3h and 4h30, depending on the configuration chosen with your property.", ar: "عادةً بين 3 ساعات و4 ساعات ونصف، حسب الإعداد المختار مع منشأتكم." },
   "contact.faq2.q": { fr: "Quelle est la capacité recommandée ?",  en: "What is the recommended capacity?",      ar: "ما الطاقة الاستيعابية الموصى بها؟" },
-  "contact.faq2.a": { fr: "Safe & Sound est conçu pour des formats intimistes à semi-ouverts, de 50 à 200 personnes selon votre espace.", en: "Safe & Sound is designed for intimate to semi-open formats, from 50 to 200 people depending on your space.", ar: "سيف آند ساوند مصممة لصيغ حميمة إلى شبه مفتوحة، من 50 إلى 200 شخص حسب مساحتكم." },
+  "contact.faq2.a": { fr: "Safe & Sound est conçu pour des formats intimistes à semi-ouverts, de 50 à 300 personnes selon votre espace.", en: "Safe & Sound is designed for intimate to semi-open formats, from 50 to 300 people depending on your space.", ar: "سيف آند ساوند مصممة لصيغ حميمة إلى شبه مفتوحة، من 50 إلى 300 شخص حسب مساحتكم." },
   "contact.faq3.q": { fr: "Puis-je personnaliser le programme ?",  en: "Can I customise the programme?",         ar: "هل يمكنني تخصيص البرنامج؟" },
   "contact.faq3.a": { fr: "Oui. Nous proposons des ajustements selon votre contexte : thématique, durée, nombre d'artistes, configuration bar.", en: "Yes. We offer adjustments based on your context: theme, duration, number of artists, bar configuration.", ar: "نعم. نُقدِّم تعديلات حسب سياقكم: الموضوع، المدة، عدد الفنانين، تهيئة البار." },
   "contact.faq4.q": { fr: "Le concept est-il disponible hors de Paris ?", en: "Is the concept available outside Paris?", ar: "هل المفهوم متاح خارج باريس؟" },
-  "contact.faq4.a": { fr: "Safe & Sound est principalement déployé à Paris. Pour des demandes en dehors, contactez-nous directement.", en: "Safe & Sound is primarily deployed in Paris. For requests outside, contact us directly.", ar: "سيف آند ساوند تُطبَّق أساساً في باريس. للطلبات خارجها، تواصلوا معنا مباشرةً." },
+  "contact.faq4.a": { fr: "Depuis Paris, Safe & Sound se déploie sans frontière. Pour toutes demandes, contactez-nous.", en: "From Paris, Safe & Sound knows no borders. For any enquiry, contact us.", ar: "من باريس، ينتشر Safe & Sound دون حدود. لأي استفسار، تواصلوا معنا." },
 };
 
 /* ── Moteur de traduction ── */
