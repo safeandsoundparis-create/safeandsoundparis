@@ -812,7 +812,8 @@ p { font-size: 0.875rem; color: rgba(0,0,0,0.65); line-height: 1.85; }
   font-family: var(--font-serif);
   font-style: italic;
   font-size: 1rem;
-  color: var(--dark);
+  color: #1a1a1a;
+  font-weight: 500;
   margin-top: 0.8rem;
 }
 
