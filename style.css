@@ -500,7 +500,7 @@ p { font-size: 0.875rem; color: rgba(0,0,0,0.65); line-height: 1.85; }
 .home-hero__overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(160deg, rgba(8,6,3,0.92) 0%, rgba(8,6,3,0.80) 55%, rgba(8,6,3,0.50) 100%);
+  background: linear-gradient(160deg, rgba(8,6,3,0.72) 0%, rgba(8,6,3,0.58) 55%, rgba(8,6,3,0.30) 100%);
 }
 .home-hero__content {
   position: relative;
