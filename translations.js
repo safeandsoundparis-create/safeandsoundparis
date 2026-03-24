@@ -96,14 +96,14 @@ const TRANSLATIONS = {
   "event.concept.tags.18": { fr: "Zero Alcohol",              en: "Zero Alcohol",            ar: "خالٍ من الكحول" },
   "event.concept.tags.19": { fr: "Clé en Main",               en: "Turnkey",                 ar: "جاهز للتسليم" },
 
-  "event.cta.yellow.title": { fr: "Une expérience<br><em style=\"font-style:italic;opacity:0.5;\">clé en main pour votre hôtel</em>", en: "A turnkey experience<br><em style=\"font-style:italic;opacity:0.5;\">for your hotel</em>", ar: "تجربة جاهزة<br><em style=\"font-style:italic;opacity:0.5;\">لفندقكم</em>" },
-  "event.cta.yellow.body":  { fr: "Nous gérons tout — artistes, technique, communication. Votre équipe se concentre sur l'accueil.", en: "We manage everything — artists, technical, communications. Your team focuses on hosting.", ar: "ندير كل شيء — الفنانون، التقنيات، التواصل. فريقكم يتفرغ للاستقبال." },
+  "event.cta.yellow.title": { fr: "Une expérience<br><em style=\"font-style:italic;opacity:0.5;\">clé en main</em>", en: "A turnkey<br><em style=\"font-style:italic;opacity:0.5;\">experience</em>", ar: "تجربة<br><em style=\"font-style:italic;opacity:0.5;\">جاهزة للتسليم</em>" },
+  "event.cta.yellow.body":  { fr: "Nous gérons tout — artistes, technique, logistique. Votre équipe se concentre sur l'accueil.", en: "We manage everything — artists, technical, logistics. Your team focuses on hosting.", ar: "ندير كل شيء — الفنانون، التقنيات، اللوجستيات. فريقكم يتفرغ للاستقبال." },
 
   "event.trail.eyebrow": { fr: "Explorez",     en: "Explore",         ar: "استكشف" },
   "event.trail.title":   { fr: "L'Ambiance<br><em style=\"color:var(--yellow);\">Safe & Sound</em>", en: "The Atmosphere<br><em style=\"color:var(--yellow);\">Safe & Sound</em>", ar: "أجواء<br><em style=\"color:var(--yellow);\">سيف آند ساوند</em>" },
   "event.trail.sub":     { fr: "Déplacez votre curseur pour explorer", en: "Move your cursor to explore", ar: "حرّك المؤشر للاستكشاف" },
   "event.gains.eyebrow": { fr: "Pour votre Hôtel", en: "For your Hotel",   ar: "لفندقكم" },
-  "event.gains.title":   { fr: "Ce que vous<br><em>Gagnez</em>", en: "What you<br><em>Gain</em>", ar: "ما<br><em>تكسبونه</em>" },
+  "event.gains.title":   { fr: "Ce que ça vous<br><em>Apporte</em>", en: "What it<br><em>Brings You</em>", ar: "ما<br><em>يمنحكم</em>" },
   "event.g1.title": { fr: "Différenciation Client",   en: "Guest Differentiation",       ar: "تميّز لدى العملاء" },
   "event.g1.body":  { fr: "Un moment culturel rare, mêlant musique, art et bien-être — encore peu commun dans l'hôtellerie de luxe mondiale.", en: "A rare cultural moment, blending music, art and wellness — still uncommon in global luxury hospitality.", ar: "لحظة ثقافية نادرة تجمع الموسيقى والفن والرفاهية — لا تزال نادرة في عالم الفنادق الفاخرة." },
   "event.g2.title": { fr: "100% Revenus Boissons",    en: "100% Beverage Revenue",       ar: "100% عائد المشروبات" },
