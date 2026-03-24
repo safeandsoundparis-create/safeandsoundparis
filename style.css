@@ -918,13 +918,13 @@ input::placeholder, textarea::placeholder { color: transparent; }
   font-size: 0.55rem;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: rgba(0,0,0,0.45);
+  color: rgba(0,0,0,0.75);
   display: block;
   margin-bottom: 0.2rem;
 }
 .info-item__val {
   font-size: 0.85rem;
-  color: var(--grey-lt);
+  color: #1a1a1a;
 }
 .info-item__val a { transition: color 0.25s; }
 .info-item__val a:hover { color: var(--gold); }
