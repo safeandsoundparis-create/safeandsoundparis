@@ -334,7 +334,7 @@
         </div>
       </div>
     </div>
-    <p style="text-align:center;color:var(--grey-lt);font-size:0.8rem;margin-top:1.5rem;letter-spacing:0.08em;opacity:0.6;">— Passez votre curseur sur chaque talent —</p>
+    <p style="text-align:center;color:var(--grey-lt);font-size:0.8rem;margin-top:1.5rem;letter-spacing:0.08em;opacity:0.6;">— Passez votre curseur ou appuyez sur chaque talent —</p>
   </div>
 </section>
 
@@ -531,6 +531,10 @@
     const panels = document.querySelectorAll('.talent-panel');
     panels.forEach(function(panel) {
       panel.addEventListener('mouseenter', function() {
+        panels.forEach(function(p) { p.classList.remove('active'); });
+        panel.classList.add('active');
+      });
+      panel.addEventListener('click', function() {
         panels.forEach(function(p) { p.classList.remove('active'); });
         panel.classList.add('active');
       });

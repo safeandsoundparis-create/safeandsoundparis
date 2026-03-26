@@ -431,7 +431,8 @@ p { font-size: 0.875rem; color: rgba(0,0,0,0.65); line-height: 1.85; }
   pointer-events: all;
   transform: none;
 }
-.nav__mobile .nav__link { font-size: 0.85rem; }
+.nav__mobile .nav__link { font-size: 0.85rem; color: var(--black); }
+.nav__mobile .nav__link:hover, .nav__mobile .nav__link.active { color: var(--black); }
 
 /* ════════════════════════════════════════
    PAGE HERO (shared)
