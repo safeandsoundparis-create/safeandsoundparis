@@ -1035,6 +1035,11 @@ input::placeholder, textarea::placeholder { color: transparent; }
 }
 .footer__bottom p { font-size: 0.6rem; color: rgba(128,124,118,0.4); letter-spacing: 0.08em; }
 
+/* ── RTL : Arabic text — reset letter-spacing (connected script) ── */
+[dir="rtl"], [dir="rtl"] * {
+  letter-spacing: 0 !important;
+}
+
 /* ── RTL : prix toujours en LTR ── */
 [dir="rtl"] .price-box__amount,
 [dir="rtl"] .price-box__label,
